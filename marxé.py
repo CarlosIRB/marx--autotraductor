@@ -26,7 +26,8 @@ def traducir_espaniol(texto):
 
 
 driver = webdriver.Chrome()
-driver.get('https://marxe-qa.forteinnovation.mx/admin918uj8neb1cy1ndjuza/')
+
+driver.get('https://marxe-qa..../')
 
 # Maximizar la ventana
 driver.maximize_window()
@@ -34,8 +35,10 @@ driver.maximize_window()
 # Iniciar sesión
 username = driver.find_element(By.ID, 'email')
 password = driver.find_element(By.ID, 'passwd')
-username.send_keys('ramirezbelloci@gmail.com')
-password.send_keys('e9P#&v@mf69=CU%O')
+
+username.send_keys('...')
+password.send_keys('...')
+
 driver.find_element(By.ID, 'submit_login').click()
 
 
